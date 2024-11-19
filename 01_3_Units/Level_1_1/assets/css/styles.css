@@ -1,0 +1,43 @@
+img {
+    display: inline-block;
+
+    /* &.one {
+        height: 400px;
+    }
+    &.two {
+        width: 50%;
+    }
+    &.three {
+        height: 20em;
+    }
+    &.four {
+        width: 40rem;
+    }
+    &.five {
+        width: 35vw;
+    }
+    &.six {
+        height: 75vh;
+    } */
+
+    &.one {
+        height: 150px;
+    }
+    &.two {
+        width: 30%;
+    }
+    &.three {
+        height: 50em;
+    }
+    &.four {
+        width: 10rem;
+    }
+    &.five {
+        width: 70vw;
+    }
+    &.six {
+        height: 100vh;
+    }
+}
+
+/* Was fällt dir auf?: Die Einheiten px, em und rem bleiben, wenn man die Fenstergröße verändert, statisch, wohingegen %, vw und vh sich an der Größe des Fensters orientieren und immer so groß sind, wie der jeweilige Anteil der Höhe oder Breite. */

@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica, sans-serif;
+
+    section {
+        border: 3px solid #000;
+
+        ul {
+            list-style: none;
+            padding-inline-start: 1.2em;
+
+            li {
+                line-height: 1.5em;
+
+                ul li {
+                    font-size: .8em;
+                }
+            }
+            .dog {
+                list-style: "🐶";
+            }
+            .cat {
+                list-style: "🐱";
+            }
+            .parrot {
+                list-style: "🦜";
+            }
+            .snake {
+                list-style: "🐍";
+            }
+            .lizard {
+                list-style: "🦎";
+            }
+        }
+    }
+}
